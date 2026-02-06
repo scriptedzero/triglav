@@ -1,0 +1,7 @@
+[project]
+name = "triglav"
+version = "0.1.0"
+description = "A lisp based VM programming language"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = []
