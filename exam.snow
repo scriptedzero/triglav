@@ -1,0 +1,7 @@
+(var fd = open("uv.lock"))
+(print(read(fd, 500)))
+(close(fd))
+
+(var fd = open("new.txt", "w"))
+(write(fd, "Hello, World!"))
+(close(fd))
